@@ -30,3 +30,12 @@ it will open up default editor there we have to change pick to squash
 we can resolve it on our wished manner
 
 
+
+
+
+
+
+
+
+
+
