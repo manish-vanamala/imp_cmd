@@ -1,0 +1,32 @@
+1)amend --> it used when we have committed some file and later we have realized that we have done some mistakes then we can change and commit with in the same commit
+example : 
+let we have a file.txt with some typos and we have committed it
+then after we realized that we have made mistakes and have'nt pushed to the remote repository then we can use
+(git commit --amend)
+their we can change the changes and commit it
+
+2)Stash --> It is used to save changes without commiting 
+
+Example :
+let we say we are having a file and we have made some changes in that file 
+if we use git status we get that file has been modified message 
+and we want back the original file and even the changed file 
+then we can use (git stash save "message about the work done on the file")
+and if we want to retrieve we can use (git stash pop or git stash apply "stash index" and use git stash drop "stash index")
+
+
+3)squash  --> Replacing a set of commits to a single commit 
+(git rebase -i HEAD~3)
+it will open up default editor there we have to change pick to squash
+
+
+4)merge ---> It is used to merge the branch which we have created to other branch. so that we can have all the commits in other branch.
+
+
+(git merge <branch-name>)
+
+5)merge-conflict --> this is happen when we overide a line in a file which is present in one branch by another branch.
+
+we can resolve it on our wished manner
+
+
